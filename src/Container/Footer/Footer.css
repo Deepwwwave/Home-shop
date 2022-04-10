@@ -1,0 +1,11 @@
+.container_footer{
+    height:150px;
+    background-color:#333333 ;
+    text-align: left;
+    padding:60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

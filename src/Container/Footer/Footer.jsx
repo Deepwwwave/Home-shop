@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import './Footer.css'
 
 export default class Footer extends Component {
   render() {
     return (
-      <div>Footer</div>
+      <div className="container_footer">
+        <a href="#">{this.props.children}</a>
+      </div>
     )
   }
 }

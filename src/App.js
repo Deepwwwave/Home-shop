@@ -1,7 +1,7 @@
 import './App.css';
-import Header from './Container/Header'
-import Home from './Container/Home'
-import Footer from './Container/Footer'
+import Header from './Container/Header/Header'
+import Home from './Container/Home/Home'
+import Footer from './Container/Footer/Footer'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <Footer/>
+      <Footer>Mention Legal</Footer>
     </div>
   );
 }
