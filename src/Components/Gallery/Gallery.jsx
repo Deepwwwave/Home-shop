@@ -52,7 +52,7 @@ export default class Gallery extends Component {
 
   render() {
     return (
-      <ul>
+      <ul className="container_gallery">
         {this.state.products.map((product) => {
           return (
             <Product

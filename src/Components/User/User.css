@@ -1,7 +1,17 @@
+.container_user{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end
+}
+
 .displayNone {
-    display:none
+  display: none;
 }
 
 .display {
-    display:flex
+  list-style-type: none;
+}
+
+button {
+  height: 20px;
 }

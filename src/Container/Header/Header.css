@@ -1,6 +1,10 @@
 .container_header {
+    display:flex;
+    justify-content: space-between;
     height:100px;
     background-color: #333333 ;
     padding-top:20px;
     color: white;
+    padding-left: 20%;
+    padding-right: 20%;
 }

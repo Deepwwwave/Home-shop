@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './Footer.css'
+import React, { Component } from "react";
+import "./Footer.css";
 
 export default class Footer extends Component {
   render() {
@@ -7,6 +7,6 @@ export default class Footer extends Component {
       <div className="container_footer">
         <a href="#">{this.props.children}</a>
       </div>
-    )
+    );
   }
 }

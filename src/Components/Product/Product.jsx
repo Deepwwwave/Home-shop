@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import Title from "../Title/Title";
-import './Product.css'
+import "./Product.css";
 
 export default class Product extends Component {
-
   render() {
     return (
       <div className="container_product">
