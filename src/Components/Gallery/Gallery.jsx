@@ -55,14 +55,15 @@ export default class Gallery extends Component {
       <ul className="container_gallery">
         {this.state.products.map((product) => {
           return (
+            <React.Fragment key={product.id}>
             <Product
               name={product.name}
               imgName={product.imgName}
               price={product.price}
-              key={product.id}
-            >
+              >
               {product.description}
             </Product>
+              </React.Fragment>
           );
         })}
       </ul>
